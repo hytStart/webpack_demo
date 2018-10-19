@@ -1,0 +1,42 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "pracice webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "server": "webpack-dev-server --open --mode development",
+    "build": "set NODE_ENV=production && webpack --config ./webpack.production.config.js --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.0.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-react-transform": "^3.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.8.0",
+    "less-loader": "^4.1.0",
+    "postcss-loader": "^2.1.6",
+    "react-router-dom": "^4.3.1",
+    "react-transform-hmr": "^1.0.4",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-command": "^0.4.1",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "pkg-dir": "^3.0.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-hot-loader": "^4.3.4",
+    "resolve-cwd": "^2.0.0"
+  }
+}
